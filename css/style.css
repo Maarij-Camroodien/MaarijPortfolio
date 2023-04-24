@@ -1,0 +1,19 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+/* Universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* root */
+:root{
+    --primaryColor: black;
+    --secondayColor: white;
+    --alternativeColor: gray;
+    --boarderColor: #d55703;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+/* Logo */
+#logo {
+    width: 5rem;
+}
